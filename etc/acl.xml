@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin" title="Nir Goldman Development">
+                <resource id="Magento_Backend::nirgoldman" title="Nir Goldman Core">
+                    <resource id="NirGoldman_Core::other" title="Nir Goldman Other"/>
+                    <resource id="NirGoldman_Core::index" title="Nir Goldman Details"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

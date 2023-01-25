@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="NirGoldman_Core::nirgoldman"
+             title="Nir Goldman"
+             module="NirGoldman_Core"
+             sortOrder="80"
+             resource="Magento_Backend::admin"
+        />
+
+        <add id="NirGoldman_Core::index"
+             title="Details"
+             module="NirGoldman_Core"
+             sortOrder="1000"
+             action="core/index"
+             resource="NirGoldman_Core::index"
+             parent="NirGoldman_Core::other"
+        />
+        <add id="NirGoldman_Core::other"
+             title="Other"
+             module="NirGoldman_Core"
+             sortOrder="999"
+             resource="Magento_Backend::nirgoldman"
+             parent="NirGoldman_Core::nirgoldman"
+        />
+
+
+    </menu>
+</config>

@@ -1,0 +1,4 @@
+.admin__menu .level-0.item-nirgoldman > a:before {
+    content: url("../images/logo-magneto-icon.png");
+    height:32px;
+}

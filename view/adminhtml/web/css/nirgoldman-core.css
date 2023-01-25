@@ -1,0 +1,41 @@
+.detailtext.before-end{
+    margin-bottom: 30px;
+}
+.detailtext {
+    font-size: 18px;
+    margin: 0 auto 50px;
+    color: #483f66;
+    width: 950px;
+    line-height: 29px;
+}
+.detailtext a{
+    text-decoration: none;
+    font-size: 23px;
+    display: inline-block;
+    color: #f26422;
+    font-weight: 700;
+}
+
+.core-index-index  .profile-image {
+    background: url("../images/profile_pic.jpg") no-repeat center center;
+    height: 200px;
+    background-size: 200px 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.core-index-index  h3.title-details{
+    font-family: 'Oswald', sans-serif;
+    font-size: 76px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    line-height: 90px;
+    display: inline-block;
+    color: #483f66;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+.core-index-index  .iframe{
+    text-align: center;
+}
