@@ -2,6 +2,7 @@
     "name": "nirgoldman/module-code",
     "description": "Basic module for collections for all the development modules",
     "type": "magento2-module",
+    "version": "1.0.0",
     "autoload": {
         "files": [
             "registration.php"
@@ -18,5 +19,9 @@
             "homepage": "https://www.godevelop.co.il/",
             "role": "Developer"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=7.2",
+        "magento/magento2-base": ">=2.3"
+    }
 }
